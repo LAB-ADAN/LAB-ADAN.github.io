@@ -2,7 +2,7 @@
 
 In the **IAM (Identity and Access Management)** world, there are **two core concepts** every AWS learner must understand:
 
----
+
 <img width="967" height="491" alt="IAM user vs role excalidraw(1)" src="https://github.com/user-attachments/assets/9d85d81a-11c4-42d2-80b3-e1e209177791" />
 
 ## IAM Users vs  IAM Roles
@@ -140,15 +140,22 @@ If a user hasn’t accessed EC2 in 90 days, remove EC2 permissions from their po
 
 ##  Quiz AWS IAM — Test Your Knowledge
 
-### Question 1: IAM Roles vs. IAM Users
+### Question 1: IAM Roles
 
-A company has an application running on an EC2 instance that needs to read objects from an S3 bucket.
-What is the most secure way to grant access?
+A company runs an EC2 instance that must read from S3.  
+What’s the most secure way to grant access?
 
-A. Store AWS credentials in a config file inside the EC2 instance.
-B. Create an IAM user, generate access keys, and upload them to the instance.
-C. Create an IAM role with S3 read permissions and attach it to the EC2 instance.
-D. Use the root account credentials on the EC2 instance.
+- [ ] A. Store AWS credentials in the instance
+- [ ] B. Use the root user credentials
+- [x] C. Attach an IAM Role with S3 permissions
+- [ ] D. Create a shared IAM user with access keys
 
-> Correct Answer: C
+<details>
+<summary>✅ Show Explanation</summary>
+
+**Correct Answer:** C  
+IAM Roles provide **temporary credentials** and eliminate the risk of hardcoded secrets.
+
+</details>
+
 > EC2 should use IAM Roles for secure, temporary access to AWS resources — never hardcode keys.

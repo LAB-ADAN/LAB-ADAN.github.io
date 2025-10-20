@@ -1,6 +1,6 @@
 ![VPC excalidraw](https://github.com/user-attachments/assets/f1f3db9e-2c3f-42d3-8c67-3012f15b9c1f)
 
-# AWS Networking - Big Picture 
+# AWS Networking - Big Picture :dizzy_face
 
 ## User interaction with app
 User looks for example.com, 

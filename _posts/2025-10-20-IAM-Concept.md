@@ -140,22 +140,19 @@ If a user hasn’t accessed EC2 in 90 days, remove EC2 permissions from their po
 
 ##  Quiz AWS IAM — Test Your Knowledge
 
-### Question 1: IAM Roles
+### Question 1: IAM Role Definition
 
-A company runs an EC2 instance that must read from S3.  
-What’s the most secure way to grant access?
+What is the proper definition of an IAM Role?
 
-- [ ] A. Store AWS credentials in the instance
-- [ ] B. Use the root user credentials
-- [x] C. Attach an IAM Role with S3 permissions
-- [ ] D. Create a shared IAM user with access keys
+- [ ] A. A permanent identity for human users.
+- [ ] B. A password management feature.
+- [ ] C. A temporary identity assumed by AWS services or external accounts.
+- [ ] D. A static policy document for users.
 
 <details>
-<summary>✅ Show Explanation</summary>
+<summary>💡 Show Answer & Explanation</summary>
 
-**Correct Answer:** C  
-IAM Roles provide **temporary credentials** and eliminate the risk of hardcoded secrets.
-
+✅ **Correct Answer:** **C**  
+IAM Roles provide **temporary credentials** that are assumed by trusted entities like EC2, Lambda, or external AWS accounts.
 </details>
 
-> EC2 should use IAM Roles for secure, temporary access to AWS resources — never hardcode keys.

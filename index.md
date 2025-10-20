@@ -1,5 +1,12 @@
-Here you can say lots of fun things about your site.
+# My Learning Blog ☁️
 
-Maybe say a some things about yourself.
+Welcome to my personal documentation space for all things AWS. Use the links below to navigate through my notes and tutorials.
 
-Or maybe what you plan to blog about.
+---
+
+## AWS Learning Modules
+
+---
+
+### About Me
+Personal info

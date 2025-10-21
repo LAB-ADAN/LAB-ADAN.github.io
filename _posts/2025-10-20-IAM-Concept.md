@@ -24,6 +24,8 @@ In the **IAM (Identity and Access Management)** world, there are **two core conc
 - **Users** → Represent individual identities.  
 - **Groups** → Organize users with similar permissions.  
 - **Policies** → Define *what actions* can be performed *on which resources*.
+
+
 <img width="997" height="608" alt="IAM Policy structure excalidraw" src="https://github.com/user-attachments/assets/fd77fa46-b18d-437f-911a-b85297ec2da2" />
 
 ---
@@ -135,8 +137,6 @@ If a user hasn’t accessed EC2 in 90 days, remove EC2 permissions from their po
 }
 
 ```
-
- **Result:** A custom password policy is created.
 
 ---
 

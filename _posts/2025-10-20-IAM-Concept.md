@@ -135,7 +135,6 @@ If a user hasn’t accessed EC2 in 90 days, remove EC2 permissions from their po
     "Resource": "*"
   }]
 }
-
 ```
 
 ---

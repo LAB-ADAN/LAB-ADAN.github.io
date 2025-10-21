@@ -1,4 +1,4 @@
-Use **AWS Cost Explorer** to analyze trendsUse **AWS Cost Explorer** to analyze trends# AWS Budgets — Hands-On Guide to Cost Management
+Use **AWS Cost Explorer** to analyze trendsUse **AWS Cost Explorer** to analyze trendsUse **AWS Cost Explorer** to analyze trends# AWS Budgets — Hands-On Guide to Cost Management
 
 Efficient cost management in AWS starts with enabling IAM billing access and setting up budget alerts.  
 This guide walks you through both — step-by-step and simplified for practical understanding.
@@ -123,4 +123,3 @@ flowchart TD
     style G fill:#e9f7ef,stroke:#28a745,stroke-width:1px
     style H fill:#fdf6ec,stroke:#ff9800,stroke-width:1px
     style I fill:#dff0d8,stroke:#3c763d,stroke-width:1px
-

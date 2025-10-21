@@ -90,7 +90,7 @@ A **Lambda function** that needs to:
 - Read messages from **SQS**
 - Write logs to **CloudWatch**
 
-➡️ Attach a Role with:
+ Attach a Role with:
 
 ```json
 {
@@ -99,7 +99,7 @@ A **Lambda function** that needs to:
   "Resource": "*"
 }
 ```
-> **Better Practice:**
+
 
 ##  Auditing IAM Permissions
 
@@ -122,6 +122,7 @@ If a user hasn’t accessed EC2 in 90 days, remove EC2 permissions from their po
 2. Choose:
    - **Service**: IAM
    - **Actions**: ListUsers, GetUser
+   - 
 ```json
 {
   "Version": "2012-10-17",
@@ -142,7 +143,8 @@ If a user hasn’t accessed EC2 in 90 days, remove EC2 permissions from their po
 
 ### Question 1: IAM Role Definition
 
-What is the proper definition of an IAM Role?
+A company has an application running on an EC2 instance that needs to read objects from an S3 bucket.
+What is the **most secure** way to grant access?
 
 - [ ] A. A permanent identity for human users.
 - [ ] B. A password management feature.
@@ -152,7 +154,44 @@ What is the proper definition of an IAM Role?
 <details>
 <summary>💡 Show Answer & Explanation</summary>
 
-✅ **Correct Answer:** **C**  
+✅ Correct Answer: **C**  
 IAM Roles provide **temporary credentials** that are assumed by trusted entities like EC2, Lambda, or external AWS accounts.
 </details>
 
+
+### Question 2: MFA Enforcement
+
+You must enforce MFA for sensitive actions (e.g., deleting resources).
+Which method achieves this?
+- [ ] A. Enable MFA in the password policy.
+- [ ] B. Use a policy condition requiring MFA authentication.
+- [ ] C. Create a new root user with MFA.
+- [ ] D. Use Access Advisor to enforce MFA.
+<details>
+<summary>💡 Show Answer & Explanation</summary>
+
+✅ Correct Answer: **B**
+Use IAM condition key:
+```json
+"Condition": { "Bool": { "aws:MultiFactorAuthPresent": "true" } }
+```
+This enforces MFA before executing certain actions.
+</details>
+
+### Question 3: Policy Evaluation Logic
+
+A user belongs to two groups — one allows s3:GetObject, another explicitly denies it.
+What happens?
+
+- [ ] A. The user is allowed access.
+- [ ] B. The deny is ignored.
+- [ ] C. The user is denied access.
+- [ ] D. Depends on the order of policies.
+
+<details> 
+<summary>💡 Show Answer & Explanation</summary>
+
+✅ Correct Answer: **C**
+In IAM policy evaluation, explicit denies always override any allows.
+
+</details>

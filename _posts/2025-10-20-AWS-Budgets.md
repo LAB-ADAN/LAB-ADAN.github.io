@@ -104,23 +104,5 @@ Use **AWS Cost Explorer** to analyze trends
 
 
 ###  Visual Overview — AWS Budgets + Cost Explorer Workflow
-```mermaid
-flowchart TD
-A[Root Account] --> B[Enable IAM Billing Access];
-B --> C[IAM User / Role];
-C --> D[AWS Budgets];
-C --> E[AWS Cost Explorer];
-D --> F[Budget Alerts Email OR SNS];
-E --> G[Cost Trends & Analysis];
-D --> H[Prevent Overspending];
-E --> H;
-H --> I[Full Cost Visibility & Control];
+<img width="998" height="653" alt="image" src="https://github.com/user-attachments/assets/f21e8714-9b11-45ab-aa98-0f448d944a2a" />
 
-%% Custom Styling for Color Coding
-style A fill:#f9f9f9,stroke:#333,stroke-width:1px
-style D fill:#f4faff,stroke:#0073bb,stroke-width:1px
-style E fill:#f4faff,stroke:#0073bb,stroke-width:1px
-style F fill:#fff3cd,stroke:#ffcc00,stroke-width:1px
-style G fill:#e9f7ef,stroke:#28a745,stroke-width:1px
-style H fill:#fdf6ec,stroke:#ff9800,stroke-width:1px
-style I fill:#dff0d8,stroke:#3c763d,stroke-width:1px```

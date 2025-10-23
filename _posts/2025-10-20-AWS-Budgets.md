@@ -1,4 +1,4 @@
-Use **AWS Cost Explorer** to analyze trendsUse **AWS Cost Explorer** to analyze trendsUse **AWS Cost Explorer** to analyze trends# AWS Budgets — Hands-On Guide to Cost Management
+# AWS Budgets — Hands-On Guide to Cost Management
 
 Efficient cost management in AWS starts with enabling IAM billing access and setting up budget alerts.  
 This guide walks you through both — step-by-step and simplified for practical understanding.
@@ -115,27 +115,27 @@ Use **AWS Cost Explorer** to analyze trends
               |
               v
 +---------------------------+
-|     IAM User or Role      |
-| (Now has Billing Access)  |
+|      IAM User or Role     |
+|  (Now has Billing Access) |
 +-------------+-------------+
-       |                       \
-       |                        \
-       v                         v
-+-------------------+     +----------------------+
-|   AWS Budgets     |     |   AWS Cost Explorer  |
-| (Set Cost Limits) |     | (Analyze Spending)   |
-+---------+---------+     +----------+-----------+
-          |                          |
-          v                          v
-+-------------------+     +----------------------+
-| Budget Alerts     |     | Cost Trends &        |
-| (Email / SNS)     |     | Forecasting          |
-+---------+---------+     +----------+-----------+
-          \                         /
-           \                       /
+      |                      \
+      |                       \
+      v                        v
++-------------------+      +----------------------+
+|    AWS Budgets    |      |  AWS Cost Explorer   |
+| (Set Cost Limits) |      | (Analyze Spending)   |
++---------+---------+      +----------+-----------+
+          |                           |
+          v                           v
++-------------------+      +----------------------+
+| Budget Alerts     |      | Cost Trends &        |
+| (Email / SNS)     |      | Forecasting          |
++---------+---------+      +----------+-----------+
+          \                           /
+           \                         /
             +---------+-----------+
                       v
-       +------------------------------+
-       | Full Cost Visibility &       |
-       | Control Over AWS Expenses    |
-       +------------------------------+
+        +------------------------------+
+        | Full Cost Visibility &       |
+        | Control Over AWS Expenses    |
+        +------------------------------+

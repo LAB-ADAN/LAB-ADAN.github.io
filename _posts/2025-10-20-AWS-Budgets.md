@@ -104,7 +104,7 @@ Use **AWS Cost Explorer** to analyze trends
 
 
 ###  Visual Overview — AWS Budgets + Cost Explorer Workflow
-` ```mermaid
+` ```mermaid `
 graph TD
     A[Root Account<br>(Owner of Billing Access)] --> B{Enable IAM Billing Access};
     B --> C[IAM User or Role<br>(Now has Billing Access)];
@@ -114,3 +114,4 @@ graph TD
     E --> G[Cost Trends & Forecasting];
     F --> H;
     G --> H[Full Cost Visibility &<br>Control Over AWS Expenses];
+` ``` `

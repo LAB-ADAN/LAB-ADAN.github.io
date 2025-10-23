@@ -103,17 +103,42 @@ Use **AWS Cost Explorer** to analyze trends
 
 
 ###  Visual Overview — AWS Budgets + Cost Explorer Workflow
++---------------------------+
+|      Root Account         |
+|  (Owner of Billing Access)|
++-------------+-------------+
+              |
+              v
++---------------------------+
+| Enable IAM Billing Access |
++-------------+-------------+
+              |
+              v
++---------------------------+
+|     IAM User or Role      |
+| (Now has Billing Access)  |
++-------------+-------------+
+       |                       \
+       |                        \
+       v                         v
++-------------------+     +----------------------+
+|   AWS Budgets     |     |   AWS Cost Explorer  |
+| (Set Cost Limits) |     | (Analyze Spending)   |
++---------+---------+     +----------+-----------+
+          |                          |
+          v                          v
++-------------------+     +----------------------+
+| Budget Alerts     |     | Cost Trends &        |
+| (Email / SNS)     |     | Forecasting          |
++---------+---------+     +----------+-----------+
+          \                         /
+           \                       /
+            +---------+-----------+
+                      v
+       +------------------------------+
+       | Full Cost Visibility &       |
+       | Control Over AWS Expenses    |
+       +------------------------------+
 
-```mermaid
-flowchart TD
-  A[Root Account] --> B[Enable IAM Billing Access]
-  B --> C[IAM User or Role]
-  C --> D[AWS Budgets]
-  C --> E[AWS Cost Explorer]
-  D --> F[Budget Alerts via Email or SNS]
-  E --> G[Cost Trends and Analysis]
-  D --> H[Prevent Overspending]
-  E --> H
-  H --> I[Full Cost Visibility and Control]
 ```
     

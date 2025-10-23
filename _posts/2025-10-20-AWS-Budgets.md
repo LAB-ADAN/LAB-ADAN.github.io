@@ -104,15 +104,21 @@ Use **AWS Cost Explorer** to analyze trends
 
 ###  Visual Overview — AWS Budgets + Cost Explorer Workflow
 
-```
+```mermaid
 flowchart TD
-    A[Root Account] --> B[Enable IAM Billing Access]
-    B --> C[IAM User or Role]
-    C --> D[AWS Budgets]
-    C --> E[AWS Cost Explorer]
-    D --> F[Budget Alerts via Email or SNS]
-    E --> G[Cost Trends and Analysis]
-    D --> H[Prevent Overspending]
-    E --> H
-    H --> I[Full Cost Visibility and Control]
+  A[Root Account] --> B[Enable IAM Billing Access]
+  B --> C[IAM User or Role]
+  C --> D[AWS Budgets]
+  C --> E[AWS Cost Explorer]
+  D --> F[Budget Alerts via Email or SNS]
+  E --> G[Cost Trends and Analysis]
+  D --> H[Prevent Overspending]
+  E --> H
+  H --> I[Full Cost Visibility and Control]
+```
+<!-- Add Mermaid JS support -->
+<script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+  mermaid.initialize({ startOnLoad: true });
+</script>
     

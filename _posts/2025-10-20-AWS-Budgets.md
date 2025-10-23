@@ -110,7 +110,7 @@ A[Root Account] --> B[Enable IAM Billing Access];
 B --> C[IAM User / Role];
 C --> D[AWS Budgets];
 C --> E[AWS Cost Explorer];
-D --> F[Budget Alerts (Email OR SNS)];
+D --> F[Budget Alerts(Email OR SNS)];
 E --> G[Cost Trends & Analysis];
 D --> H[Prevent Overspending];
 E --> H;

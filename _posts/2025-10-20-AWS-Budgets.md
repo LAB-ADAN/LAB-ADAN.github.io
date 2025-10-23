@@ -104,7 +104,7 @@ Use **AWS Cost Explorer** to analyze trends
 
 
 ###  Visual Overview — AWS Budgets + Cost Explorer Workflow
-` ```mermaid
+```mermaid
 flowchart TD
     A[Root Account] --> B[Enable IAM Billing Access];
     B --> C[IAM User / Role];

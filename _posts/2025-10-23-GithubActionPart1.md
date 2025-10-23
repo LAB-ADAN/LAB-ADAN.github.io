@@ -107,7 +107,7 @@ jobs:
 - **GitHub Actions** lets you automate tasks in your repository using **workflows** written in **YAML**.  
 - Workflows are triggered by **events**, like opening an Issue or Pull Request.  
 - **Actions** run on virtual machines (e.g., `ubuntu-latest`) and use **permissions** defined in the workflow.  
-- `repo-token: ${{ secrets.GITHUB_TOKEN }}` provides the **security credentials** needed for the Action to interact with your repository.
+- `repo-token: $ secrets.GITHUB_TOKEN ` provides the **security credentials** needed for the Action to interact with your repository.
 
 ---
 

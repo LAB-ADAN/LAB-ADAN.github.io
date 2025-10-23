@@ -19,7 +19,7 @@ the **Root Account** must explicitly enable IAM billing access.
 3. Scroll to **IAM User and Role Access to Billing Information**.  
 4. Select the checkbox to **Activate IAM access to the billing console**.  
 
-**✅ Result:**  
+**Result:**  
 IAM users can now be granted permissions to view the Billing section using IAM policies.
 
 ---
@@ -110,7 +110,7 @@ A[Root Account] --> B[Enable IAM Billing Access];
 B --> C[IAM User / Role];
 C --> D[AWS Budgets];
 C --> E[AWS Cost Explorer];
-D --> F[Budget Alerts (Email / SNS)];
+D --> F[Budget Alerts (Email OR SNS)];
 E --> G[Cost Trends & Analysis];
 D --> H[Prevent Overspending];
 E --> H;

@@ -71,7 +71,7 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: "Hi you just create an issue."
         pr-message: "Message that will be displayed on users' first pull request"
-
+```
 ###  Key Points Explained
 
 | Code Line                         | Explanation                                                                                  |

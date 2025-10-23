@@ -13,6 +13,8 @@ Before diving into automation, let’s quickly review a few key terms in the con
 3. Project maintainers **review** your changes.  
 4. If approved, your changes are **merged** into the main project.
 
+---
+
 ## Porject Objective
 Our goal today is to automatically greet first-time contributors when they open their very first Issue or Pull Request.
 

@@ -88,12 +88,12 @@ jobs:
 | `issue-message: "..."`            | The comment posted on a new user’s first Issue.                                             |
 | `pr-message: "..."`               | The comment posted on a new user’s first Pull Request.                                      |
 
-###  A Note on `repo-token: ${{ secrets.GITHUB_TOKEN }}`
+###  A Note on `repo-token: {{ secrets.GITHUB_TOKEN }}`
 
 - **`repo-token:`**  
   This is the security credential that gives the Action permission to act on your repository's behalf (for example, posting a comment).
 
-- **`${{ secrets.GITHUB_TOKEN }}`**  
+- **`{{ secrets.GITHUB_TOKEN }}`**  
   A special token that GitHub automatically creates for every workflow run.  
   - Temporary secret  
   - Valid only for the duration of the action

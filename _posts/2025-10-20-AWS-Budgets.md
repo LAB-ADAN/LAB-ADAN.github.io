@@ -139,4 +139,3 @@ Use **AWS Cost Explorer** to analyze trends
        | Full Cost Visibility &       |
        | Control Over AWS Expenses    |
        +------------------------------+
-    

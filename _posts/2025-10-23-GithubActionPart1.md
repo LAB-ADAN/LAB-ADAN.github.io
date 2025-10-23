@@ -1,6 +1,6 @@
 # Hands-On GitHub Actions for Absolute Beginners
-### part1
-
+*Part1*
+---
 ## Getting Your Mind Ready: GitHub Basics
 Before diving into automation, let’s quickly review a few key terms in the context of a GitHub repository (a project folder):
 

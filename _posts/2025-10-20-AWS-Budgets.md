@@ -1,4 +1,5 @@
-# AWS Budgets — Hands-On Guide to Cost Management
+# AWS Budgets 
+## Hands-On Guide to Cost Management
 
 Efficient cost management in AWS starts with enabling IAM billing access and setting up budget alerts.  
 This guide walks you through both — step-by-step and simplified for practical understanding.
@@ -103,39 +104,12 @@ Use **AWS Cost Explorer** to analyze trends
 
 
 ###  Visual Overview — AWS Budgets + Cost Explorer Workflow
-+---------------------------+
-|      Root Account         |
-|  (Owner of Billing Access)|
-+-------------+-------------+
-              |
-              v
-+---------------------------+
-| Enable IAM Billing Access |
-+-------------+-------------+
-              |
-              v
-+---------------------------+
-|      IAM User or Role     |
-|  (Now has Billing Access) |
-+-------------+-------------+
-      |                      \
-      |                       \
-      v                        v
-+-------------------+      +----------------------+
-|    AWS Budgets    |      |  AWS Cost Explorer   |
-| (Set Cost Limits) |      | (Analyze Spending)   |
-+---------+---------+      +----------+-----------+
-          |                           |
-          v                           v
-+-------------------+      +----------------------+
-| Budget Alerts     |      | Cost Trends &        |
-| (Email / SNS)     |      | Forecasting          |
-+---------+---------+      +----------+-----------+
-          \                           /
-           \                         /
-            +---------+-----------+
-                      v
-        +------------------------------+
-        | Full Cost Visibility &       |
-        | Control Over AWS Expenses    |
-        +------------------------------+
+graph TD
+    A[Root Account<br>(Owner of Billing Access)] --> B{Enable IAM Billing Access};
+    B --> C[IAM User or Role<br>(Now has Billing Access)];
+    C --> D(AWS Budgets<br>Set Cost Limits);
+    C --> E(AWS Cost Explorer<br>Analyze Spending);
+    D --> F[Budget Alerts<br>(Email / SNS)];
+    E --> G[Cost Trends & Forecasting];
+    F --> H;
+    G --> H[Full Cost Visibility &<br>Control Over AWS Expenses];

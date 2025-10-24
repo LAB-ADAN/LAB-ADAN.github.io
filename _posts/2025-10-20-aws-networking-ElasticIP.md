@@ -58,7 +58,9 @@ Follow these simple steps to allocate and associate an Elastic IP:
 8. **Crucial Step:** When finished, **release the Elastic IP**:  
    - Select it → **Actions** → **Release Elastic IP addresses**  
    - This prevents unwanted **billing charges**.
+
 ---
+
 ##  The Better Way
 
 | The Better Way | Why It's Better |  Budget Evaluation |

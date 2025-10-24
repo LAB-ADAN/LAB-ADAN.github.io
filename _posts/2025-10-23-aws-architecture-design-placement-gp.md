@@ -5,6 +5,10 @@ An **EC2 Placement Group** is a **logical grouping of instances** within an AWS 
 
 >  The goal: influence **network latency**, **throughput**, or **resilience** to hardware failure for a specific group of instances.
 
+
+<img width="1129" height="561" alt="Placement-groups excalidraw" src="https://github.com/user-attachments/assets/1457f826-f824-43fe-96b6-55135f383ede" />
+
+
 There are **three key strategies**, each designed for a different architectural purpose:
 
 ---
@@ -51,10 +55,6 @@ There are **three key strategies**, each designed for a different architectural 
 | **Difference from Spread** | **Spread:** isolates *each instance* (max 7 per AZ).<br>**Partition:** isolates *groups of instances* (partitions) for **greater scalability**. |
 
 > 💬 **Summary:** Partition groups strike a balance — **resilient, scalable, and efficient** for data-intensive architectures.
-
----
-
-<img width="1129" height="561" alt="Placement-groups excalidraw" src="https://github.com/user-attachments/assets/1457f826-f824-43fe-96b6-55135f383ede" />
 
 ---
 

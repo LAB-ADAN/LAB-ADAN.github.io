@@ -78,5 +78,4 @@ Use **EIPs only** for specific non-web-service needs, such as:
 
 For **applications**, always use an **Elastic Load Balancer (ELB)**.
 
-
 ---

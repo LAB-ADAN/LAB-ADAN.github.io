@@ -1,3 +1,10 @@
+---
+title: "Architectural Deep Dive: Elastic IPs"
+date: 2025-10-25
+categories: [AWS Architecture]
+tags: [Elastic IP, Networking, Public IP]
+---
+
 #  Architectural Deep Dive:  Elastic IPs 
 
 ##  1. Elastic IP (EIP): Your Static Public Address

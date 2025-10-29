@@ -28,8 +28,7 @@ Hi, I'm **Reza** — passionate about **Cloud + Network Automation (NetDevOps)**
 This blog documents my continuous learning journey across AWS, DevOps, and Infrastructure Engineering.  
 Expect practical notes, architectural insights, and publishable mini-projects built from real-world experience.
 
->This entire effort is dedicated to **my father**, who passed away recently.  
-He was the person who first sparked my curiosity and passion for technology. Every post and project here is a continuation of that inspiration — a way to honor the love for learning and problem-solving that I inherited from him.
+> This effort is dedicated to my **father**, who recently passed away. My passion for technology and learning comes from him, and this blog is a way to honor his influence and memory
 
 ---
 

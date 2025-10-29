@@ -1,3 +1,10 @@
+---
+title: "Hands-On GitHub Actions for Absolute Beginners - I"
+date: 2025-10-23
+categories: [DevOps & Automation]
+tags: [GitHub Actions, CI/CD, Automation]
+---
+
 # Hands-On GitHub Actions for Absolute Beginners - I
 ---
 ## Getting Your Mind Ready: GitHub Basics

@@ -42,4 +42,5 @@ defaults:
       path: ""
       type: post
     values:
-      tags: Other
+      categories: [AWS Architecture]
+      tags: [ENI, Networking]

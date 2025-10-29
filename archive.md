@@ -3,7 +3,7 @@ layout: page
 title: Blog Archive
 ---
 
-{% for category in site.catgories %}
+{% for category in site.categories %}
   <h2>{{ category[0] }}</h2>
   <ul>
     {% for post in category[1] %}

@@ -1,3 +1,10 @@
+---
+title: "Architectural Deep Dive - EC2 Placement Groups"
+date: 2025-10-22
+categories: [AWS Architecture]
+tags: [EC2, Performance, Networking]
+---
+
 # Architectural Deep Dive - EC2 Placement Groups
 ## Where Your Instances Live
 

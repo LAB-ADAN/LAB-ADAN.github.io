@@ -1,3 +1,10 @@
+---
+title: "AWS Budgets — Hands-On Guide to Cost Management"
+date: 2025-10-20
+categories: [AWS Cost Management]
+tags: [Budgets, Billing, Cost Optimization]
+---
+
 # AWS Budgets 
 ## Hands-On Guide to Cost Management
 

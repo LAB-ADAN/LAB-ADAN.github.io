@@ -40,7 +40,7 @@ titles_from_headings:
 defaults:
   - scope:
       path: ""
-      type: post
+      type: "posts"
     values:
-      categories: [AWS Architecture]
-      tags: [ENI, Networking]
+      layout: "post"
+      tags: ["General"]

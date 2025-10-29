@@ -1,3 +1,10 @@
+---
+title: "Understanding AWS IAM — A Practical Guide"
+date: 2025-10-26
+categories: [AWS Security]
+tags: [IAM, Security, Access Control]
+---
+
 #  Understanding AWS IAM — A Practical Guide
 
 In the **IAM (Identity and Access Management)** world, there are **two core concepts** every AWS learner must understand:

@@ -37,7 +37,7 @@ Expect practical notes, architectural insights, and publishable mini-projects bu
 > and this blog is a way to honor his influence and memory.
 
 *In his memory, I keep learning — one post at a time.*
-— **Reza**
+— *Reza*
 
 ---
 

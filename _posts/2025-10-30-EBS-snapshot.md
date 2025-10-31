@@ -1,12 +1,11 @@
 ---
-title: "Amazon EBS — Your Ultimate Guide to Persistent Storage on AWS EC2"
+title: "Architectural Deep Dive: Amazon EBS and snapshot"
 date: 2025-10-30
 categories: [AWS Storage]
 tags: [EBS, Snapshots]
 ---
 
-# Amazon EBS: Your Ultimate Guide to Persistent Storage on AWS EC2
-
+# Architectural Deep Dive: Amazon EBS and snapshot
 When you launch an EC2 instance (a virtual server in the cloud), you need a place for your data to live. That place is the **Amazon Elastic Block Store (EBS)** Volume. 
 Think of an EBS volume as a high-performance, network-attached hard drive specifically designed to work with your EC2 instance.
 

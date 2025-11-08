@@ -47,7 +47,7 @@ No more installing Prometheus, security agents, or dependencies each time.
 
 Start with **Amazon Linux 2023** and add the setup script below in the **User Data** field.
 
-✅ **Before You Begin**
+ **Before You Begin**
 
 | Config Detail | Action | Verification |
 |----------------|---------|---------------|
@@ -165,7 +165,7 @@ ssh -i /path/to/key.pem ec2-user@<EC2-Public-IP>
 
 Here’s your **“Summary: The Two-Layer Deployment”** section in clean, consistent Markdown format:
 
-```markdown
+
 ##  Summary: The Two-Layer Deployment
 
 | Layer | Tool | Purpose | Benefit |

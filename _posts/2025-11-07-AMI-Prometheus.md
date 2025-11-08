@@ -166,9 +166,6 @@ ssh -i /path/to/key.pem ec2-user@<EC2-Public-IP>
 
 ---
 
-Here’s your **“Summary: The Two-Layer Deployment”** section in clean, consistent Markdown format:
-
-
 ##  Summary: The Two-Layer Deployment
 
 | Layer | Tool | Purpose | Benefit |

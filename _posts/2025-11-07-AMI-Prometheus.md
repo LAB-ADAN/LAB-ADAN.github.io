@@ -85,7 +85,7 @@ EOF
 # Enable and start service
 systemctl daemon-reload
 systemctl enable node_exporter
-systemctl start node_exporter
+systemctl start node_exporter```
 
 ---
 
@@ -124,7 +124,7 @@ Launch a new instance using the `prometheus-base-ami` and reuse the same key pai
 
 NEW_HOSTNAME="prometheus-web-01.local"
 hostnamectl set-hostname $NEW_HOSTNAME
-systemctl restart systemd-hostnamed
+systemctl restart systemd-hostnamed```
 
 ---
 ### Step 4: Verification & Why It Matters
@@ -159,7 +159,7 @@ Use your key pair with the `ec2-user` account:
 
 ```bash
 # CORRECT (Must use ec2-user)
-ssh -i /path/to/key.pem ec2-user@<EC2-Public-IP>
+ssh -i /path/to/key.pem ec2-user@<EC2-Public-IP>```
 
 ---
 
@@ -172,5 +172,4 @@ Here’s your **“Summary: The Two-Layer Deployment”** section in clean, cons
 |--------|------|----------|----------|
 | **Layer 1: Baking** | AMI (`prometheus-base-ami`) | Base configuration — install core software (Node Exporter). | **Speed & Consistency:** Instances boot up fully monitored in seconds. |
 | **Layer 2: Launch** | User Data (Custom Hostname) | Apply instance-specific details like hostname. | **Manageability:** Easier auditing and automated role configuration. |
-```
 

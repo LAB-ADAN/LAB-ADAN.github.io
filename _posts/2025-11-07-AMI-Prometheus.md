@@ -1,6 +1,6 @@
 ---
 title: "AMI & Prometheus — Custom AMI with the Prometheus Node Exporter"
-date: 2025-10-30
+date: 2025-11-07
 categories: [AWS DevOps]
 tags: [AMI, EC2, Prometheus, Automation, Monitoring]
 ---

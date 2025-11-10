@@ -7,10 +7,12 @@ Welcome to my personal documentation space — a collection of hands-on notes, a
 ##  Explore by Category
 
 - [AWS Architecture](archive.html#aws-architecture)
+- [AWS Storage](archive.html#aws-storage)
 - [AWS Networking](archive.html#aws-networking)
 - [AWS Security](archive.html#aws-security)
 - [AWS Cost Management](archive.html#aws-cost-management)
 - [DevOps & Automation](archive.html#devops--automation)
+- [AWS DevOps](archive.html#aws-devops)
 
 > [📁 Blog Archive](archive.html).
 

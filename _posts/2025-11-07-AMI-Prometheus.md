@@ -173,3 +173,9 @@ ssh -i /path/to/key.pem ec2-user@<EC2-Public-IP>
 | **Layer 1: Baking** | AMI (`prometheus-base-ami`) | Base configuration — install core software (Node Exporter). | **Speed & Consistency:** Instances boot up fully monitored in seconds. |
 | **Layer 2: Launch** | User Data (Custom Hostname) | Apply instance-specific details like hostname. | **Manageability:** Easier auditing and automated role configuration. |
 
+---
+
+## Very Important Point : AMIs are build for a specific AWS region
+You can not launch an EC2 instance using an AMI in another AWS region, but you can copy the AMI to the target AWS region and then use it to create an EC2 instance.
+
+---
